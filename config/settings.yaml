@@ -1,0 +1,15 @@
+scan_interval_seconds: 5
+trade_cooldown_seconds: 60
+
+markets:
+  - id: "market_1"
+    name: "Election Outcome A"
+    spike_threshold_pct: 0.08
+    min_liquidity: 1000
+    max_spread: 0.02
+
+  - id: "market_2"
+    name: "Sports Match Result"
+    spike_threshold_pct: 0.06
+    min_liquidity: 1500
+    max_spread: 0.015
